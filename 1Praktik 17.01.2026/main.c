@@ -37,5 +37,6 @@ int main(int argc, char *argv[]) {
 			printf("there are no roots \n");
 		}
 	}
+	system("pause");
 	return 0;
 }
