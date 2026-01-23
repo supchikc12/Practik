@@ -105,7 +105,6 @@ int main(int argc, char *argv[]) {
 			sqare[i][j] = 0;
 			for(k=0;k<n;k++)
 			{
-				printf("%d += %d * %d \n", sqare[i][j], ipa[i][j], ipa[i][k]);
 				sqare[i][j] += ipa[i][k] * ipa[k][j];				
 			}		
 		}
